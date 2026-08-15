@@ -59,3 +59,9 @@ This runs `mocha dmoney.spec.js` against the configured `BASE_URL`.
 - Tests run sequentially and share state (access tokens, user ids, phone numbers) via module-level variables, since later flows depend on accounts/tokens created by earlier ones.
 - The test suite creates real users and moves real balances on the target server — run it against a dev/test environment, not production.
 - Some transactions are subject to server-side business rules (e.g. daily deposit limits, minimum balance requirements); running the suite repeatedly against the same server/account may cause otherwise-passing tests to fail once those limits are hit.
+
+## Report
+
+<img width="886" height="795" alt="console_output" src="https://github.com/user-attachments/assets/914c8f6e-4048-4ac3-b43f-abf59bc3eb72" />
+
+
